@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="icon" href="/img/weather.png">
+	<title>Home</title>
+</head>
+<body>
+<div class="main-content"> 
+ {{>header}}
+
+ <form>
+ 	<input type="text" name="Address" placeholder="Enter a location">
+ 	<button>Search</button>
+ </form>
+
+ <p id = "message-1"></p>
+ <p id = "message-2"></p>
+</div>
+{{>footer}}
+<script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>
